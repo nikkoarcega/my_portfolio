@@ -164,13 +164,21 @@ nav .fa-solid {
 }
 
 /* -------section-about starts here--------- */
+
 .section-about {
+    width: 60%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+.left-pic img {
     width: 100%;
-    flex-direction: column;
 }
-div > img {
-    flex: 0 0 auto;
-    width: 50%;
+.right-text {
+    
+    background-color: aqua;
 }
+
+
