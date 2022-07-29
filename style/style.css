@@ -142,7 +142,7 @@ nav .fa-solid {
     }
     .nav-list {
         position: absolute;
-        background: rgb(89, 180, 150);
+        background: rgba(89, 180, 150, 0.912);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -161,4 +161,16 @@ nav .fa-solid {
     .nav-list ul {
         padding: 30px;
     }
+}
+
+/* -------section-about starts here--------- */
+.section-about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+}
+div > img {
+    flex: 0 0 auto;
+    width: 50%;
 }
