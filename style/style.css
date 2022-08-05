@@ -116,7 +116,7 @@ nav .fa-solid {
     display: none;
 }
 
-/* This section is for lower resolution */
+/*--- This section is for lower resolution ----*/
 @media(max-width: 700px) {
      .text-box h1 {
         font-size: 29px;
@@ -166,19 +166,23 @@ nav .fa-solid {
 /* -------section-about starts here--------- */
 
 .section-about {
+    background-color: black;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    /* margin: 0 auto; */
 }
 .left-pic img {
-    width: 50%;
-    align-self: center;
-    flex-wrap: wrap;
+    width: 60%;
+    border-radius: 26%;
+    padding-left: 7em;
+    float: right;
 }
 .right-text {
-    background-color: aqua;
+    color: #fff;
+    text-align: justify;
+    margin: 0 100px 0 10px;
+    padding: 0 25px 0 0;
 }
 
 
